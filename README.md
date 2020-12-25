@@ -1,0 +1,3 @@
+# Neo4jFinalProject
+FinalProject
+本项目为NoSQL Database课程的期末课设，其中文件夹data里面是本次所收集到的数据，数据爬取自QQ音乐，通过歌单进行的爬取工作。
