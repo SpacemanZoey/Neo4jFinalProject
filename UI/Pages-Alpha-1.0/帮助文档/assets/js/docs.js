@@ -2,20 +2,19 @@
  * Documentation JS script
  */
 
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
     "use strict";
 
     /* ******************************************************************** */
     /*                        PRELOADER                                     */
     /* ******************************************************************** */
 
-    $(window).load(function() {
+    $(window).load(function () {
         if ($('.xdocs-pre-loader').length) {
             // Animate loader off screen
             $(".xdocs-pre-loader").fadeOut("slow");
         }
     });
-
 
 
     /* ******************************************************************** */
@@ -37,20 +36,22 @@ jQuery(document).ready(function($) {
     /* ******************************************************************** */
     if ($('.nav').length) {
 
-        $(".nav a[href^='#'], .header-link").click(function() {
+        $(".nav a[href^='#'], .header-link").click(function () {
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top - 0
-            }, 1500, function() {});
+            }, 1500, function () {
+            });
             return false;
         });
     }
 
     if ($('.steps').length) {
 
-        $(".steps a[href^='#']").click(function() {
+        $(".steps a[href^='#']").click(function () {
             $('html, body').animate({
                 scrollTop: $($.attr(this, 'href')).offset().top - 0
-            }, 1500, function() {});
+            }, 1500, function () {
+            });
             return false;
         });
     }
