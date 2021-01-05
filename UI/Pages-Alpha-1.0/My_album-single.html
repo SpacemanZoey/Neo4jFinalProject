@@ -71,9 +71,10 @@
 </div>
 
 <!-- @Pre loader-->
+
 <div id="app">
 
-
+<!--Sidebar-->
     <aside class="main-sidebar fixed offcanvas shadow" data-toggle='offcanvas'>
         <div class="sidebar">
             <ul class="sidebar-menu">
@@ -210,11 +211,58 @@
 
             </div>
         </div>
+<<<<<<< HEAD
     </aside>
     <!-- /.right-sidebar -->
     <!-- Add the sidebar's background. This div must be placed
              immediately after the control sidebar -->
     <div class="control-sidebar-bg shadow  fixed"></div>
+=======
+    </div>
+</aside>
+<!-- /.right-sidebar -->
+
+<!-- Search Page-->
+<!-- Add the sidebar's background. This div must be placed
+         immediately after the control sidebar -->
+<div class="control-sidebar-bg shadow  fixed"></div>
+<svg class="d-none">
+    <defs>
+        <symbol id="icon-cross" viewBox="0 0 24 24">
+            <title>cross</title>
+            <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+        </symbol>
+    </defs>
+</svg>
+<div class="searchOverlay page">
+    <button
+            id="btn-searchOverlay-close"
+            class="btn btn--searchOverlay-close"
+            aria-label="Close searchOverlay form"
+    >
+        <svg class="icon icon--cross">
+            <use xlink:href="#icon-cross"></use>
+        </svg>
+    </button>
+    <div class="searchOverlay__inner  searchOverlay__inner--up">
+        <form class="searchOverlay__form" action="My_search.html">
+            <input
+                    class="searchOverlay__input"
+                    name="searchOverlay"
+                    type="text"
+                    placeholder="Search"
+                    autocomplete="off"
+                    spellcheck="false"
+            />
+            <span class="searchOverlay__info">Hit enter to searchOverlay or ESC to close</span>
+        </form>
+    </div>
+    <div class="searchOverlay__inner searchOverlay__inner--down">
+        <div class="searchOverlay__related">
+            <div class="searchOverlay__suggestion">
+>>>>>>> 04865e608d217c3ae42f0f865b471a8a010469ad
 
     <svg class="d-none">
         <defs>
@@ -260,7 +308,12 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 
+=======
+</div>
+<!--End Search Page-->
+>>>>>>> 04865e608d217c3ae42f0f865b471a8a010469ad
 
     <!--navbar-->
     <nav class="navbar-wrapper navbar-bottom-fixed shadow">
@@ -310,11 +363,55 @@
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
 
+<<<<<<< HEAD
                     <!-- Right Sidebar Toggle Button -->
                     <li class="searchOverlay-wrap">
                         <a href="#" id="btn-searchOverlay" class="nav-link mr-3 btn--searchOverlay no-ajaxy">
                             <i class="icon icon-search s-24"></i>
                         </a>
+=======
+</nav>
+<!--End navbar-->
+
+<!--Page Content-->
+<main id="pageContent" class="page has-sidebar">
+<div class="container-fluid relative animatedParent animateOnce p-0">
+    <div class="animated fadeInUpShort">
+        <!--Banner-->
+        <section class="relative" data-bg-possition="center"
+                 style="background-image:url('assets/img/demo/b3.jpg');">
+            <div class="has-bottom-gradient">
+                <div class="row pt-5 ml-lg-5 mr-lg-5">
+                    <div class="col-md-10 offset-1">
+                        <div class="row my-5 pt-5">
+                            <div class="col-md-3">
+                                <img src="assets/img/demo/a1.jpg" alt="/">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="d-md-flex align-items-center justify-content-between">
+                                    <h1 class="my-3 text-white ">Where We Belong</h1>
+                                    <div class="ml-auto mb-2">
+                                        <a href="#" class="snackbar" data-text="Bookmark clicked"
+                                           data-pos="top-right"
+                                           data-showAction="true"
+                                           data-actionText="ok"
+                                           data-actionTextColor="#fff"
+                                           data-backgroundColor="#0c101b"><i class="icon-bookmark s-24"></i></a>
+                                        <a href="#" class="snackbar ml-3" data-text="You like this song"
+                                           data-pos="top-right"
+                                           data-showAction="true"
+                                           data-actionText="ok"
+                                           data-actionTextColor="#fff"
+                                           data-backgroundColor="#0c101b"><i class="icon-heart s-24"></i></a>
+                                        <a href="#" class="snackbar ml-3" data-text="Thanks for sharing"
+                                           data-pos="top-right"
+                                           data-showAction="true"
+                                           data-actionText="ok"
+                                           data-actionTextColor="#fff"
+                                           data-backgroundColor="#0c101b"><i class="icon-share-1 s-24"></i></a>
+                                    </div>
+                                </div>
+>>>>>>> 04865e608d217c3ae42f0f865b471a8a010469ad
 
                     </li>
                     <!-- User Account-->
@@ -348,6 +445,7 @@
                     </li>
                 </ul>
             </div>
+<<<<<<< HEAD
         </div>
 
     </nav>
@@ -387,6 +485,145 @@
                                                    data-actionText="ok"
                                                    data-actionTextColor="#fff"
                                                    data-backgroundColor="#0c101b"><i class="icon-share-1 s-24"></i></a>
+=======
+            <div class="bottom-gradient "></div>
+        </section>
+        <!--@Banner-->
+
+        <div class="p-3 p-lg-5">
+            <!--Song lists-->
+            <section>
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="playlist">
+                                    <ul class="list-group">
+                                        <li class="list-group-item my-1">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="assets/media/track1.mp3" data-wave="assets/media/track1.json">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <h6>Dance with me tonight</h6>
+                                                </div>
+                                                <span class=" ml-auto"> 5:03</span>
+                                                <a href="#" class="ml-auto" data-text="Added to favourites" data-pos="top-right" data-showaction="true" data-actiontext="ok" data-actiontextcolor="#fff" data-backgroundcolor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                                <a href="#" class="ml-auto"><i class="icon-share-1"></i></a>
+                                                <div class="ml-auto">
+                                                    <a href="#" class="btn btn-outline-primary btn-sm d-none d-lg-block">Buy at
+                                                        iTunes</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item my-1">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="assets/media/track2.mp3" data-wave="assets/media/track2.json">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <h6>Dance with me tonight</h6>
+                                                </div>
+                                                <span class=" ml-auto"> 5:03</span>
+                                                <a href="#" class="ml-auto" data-text="Added to favourites" data-pos="top-right" data-showaction="true" data-actiontext="ok" data-actiontextcolor="#fff" data-backgroundcolor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                                <a href="#" class="ml-auto"><i class="icon-share-1"></i></a>
+                                                <div class="ml-auto">
+                                                    <a href="#" class="btn btn-outline-primary btn-sm d-none d-lg-block">Buy at
+                                                        iTunes</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item my-1">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="assets/media/track1.mp3" data-wave="assets/media/track1.json">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <h6>Dance with me tonight</h6>
+                                                </div>
+                                                <span class=" ml-auto"> 5:03</span>
+                                                <a href="#" class="ml-auto" data-text="Added to favourites" data-pos="top-right" data-showaction="true" data-actiontext="ok" data-actiontextcolor="#fff" data-backgroundcolor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                                <a href="#" class="ml-auto"><i class="icon-share-1"></i></a>
+                                                <div class="ml-auto">
+                                                    <a href="#" class="btn btn-outline-primary btn-sm d-none d-lg-block">Buy at
+                                                        iTunes</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item my-1">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="assets/media/track1.mp3" data-wave="assets/media/track1.json">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <h6>Dance with me tonight</h6>
+                                                </div>
+                                                <span class=" ml-auto"> 5:03</span>
+                                                <a href="#" class="ml-auto" data-text="Added to favourites" data-pos="top-right" data-showaction="true" data-actiontext="ok" data-actiontextcolor="#fff" data-backgroundcolor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                                <a href="#" class="ml-auto"><i class="icon-share-1"></i></a>
+                                                <div class="ml-auto">
+                                                    <a href="#" class="btn btn-outline-primary btn-sm d-none d-lg-block">Buy at
+                                                        iTunes</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item my-1">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="assets/media/track1.mp3" data-wave="assets/media/track1.json">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <h6>Dance with me tonight</h6>
+                                                </div>
+                                                <span class=" ml-auto"> 5:03</span>
+                                                <a href="#" class="ml-auto" data-text="Added to favourites" data-pos="top-right" data-showaction="true" data-actiontext="ok" data-actiontextcolor="#fff" data-backgroundcolor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                                <a href="#" class="ml-auto"><i class="icon-share-1"></i></a>
+                                                <div class="ml-auto">
+                                                    <a href="#" class="btn btn-outline-primary btn-sm d-none d-lg-block">Buy at
+                                                        iTunes</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item my-1">
+                                            <div class="d-flex align-items-center">
+                                                <div class="col-1">
+                                                    <a class="no-ajaxy media-url" href="assets/media/track1.mp3" data-wave="assets/media/track1.json">
+                                                        <i class="icon-play s-28"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-6">
+                                                    <h6>Dance with me tonight</h6>
+                                                </div>
+                                                <span class=" ml-auto"> 5:03</span>
+                                                <a href="#" class="ml-auto" data-text="Added to favourites" data-pos="top-right" data-showaction="true" data-actiontext="ok" data-actiontextcolor="#fff" data-backgroundcolor="#0c101b">
+                                                    <i class="icon-heart-o s-18"></i>
+                                                </a>
+                                                <a href="#" class="ml-auto"><i class="icon-share-1"></i></a>
+                                                <div class="ml-auto">
+                                                    <a href="#" class="btn btn-outline-primary btn-sm d-none d-lg-block">Buy at
+                                                        iTunes</a>
+                                                </div>
+>>>>>>> 04865e608d217c3ae42f0f865b471a8a010469ad
                                             </div>
                                         </div>
 
@@ -589,6 +826,11 @@
                     <!--@New Releases-->
 
                 </div>
+<<<<<<< HEAD
+=======
+            </section>
+            <!--End Song lists-->
+>>>>>>> 04865e608d217c3ae42f0f865b471a8a010469ad
 
             </div>
         </div>
